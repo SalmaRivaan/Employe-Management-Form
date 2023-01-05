@@ -33,7 +33,7 @@ const Dashboard = () => {
         Swal.fire({
           icon: "success",
           title: "deleted",
-          text: "${employee.firstName}${employee.lastName}'s data has been deleted",
+          text: `${employee.firstName}${employee.lastName}'s data has been deleted`,
           showConfirmButton: false,
           timer: 1500,
         });
